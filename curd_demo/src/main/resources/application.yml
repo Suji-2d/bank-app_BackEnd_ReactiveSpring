@@ -1,6 +1,8 @@
 spring:
  profiles:
   active: dev
+  
+spring.data.mongodb.auto-index-creation: true
 ---
 spring:
  profiles: dev
@@ -22,3 +24,5 @@ spring:
   host: localhost
   port: 27017
   database: local
+  
+  
